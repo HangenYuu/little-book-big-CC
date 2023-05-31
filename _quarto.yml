@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: docs
+book:
+  title: "The little book of big CCs"
+  author: "Alan Smithee"
+  date: "5/31/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
